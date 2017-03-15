@@ -1,0 +1,17 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-align:center;
+}
+
+.quote {
+    padding:6px;
+    border-style:solid;
+    border-color:aquamarine;
+    border-weight:1px;
+}
