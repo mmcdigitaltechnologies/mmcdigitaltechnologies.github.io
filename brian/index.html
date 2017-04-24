@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brian the binary goat</title>
+        <link rel="stylesheet" href="brian-styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#td1").click(function(){
+                    $("#16-goats").toggle(); // Toggle goat image
+                    swapDigits($("#16-p"));  // Toggle digits
+                });
+                $("#td2").click(function(){
+                    $("#8-goats").toggle();
+                    swapDigits($("#8-p"));
+                });
+                $("#td3").click(function(){
+                    $("#4-goats").toggle();
+                    swapDigits($("#4-p"));
+                });
+                $("#td4").click(function(){
+                    $("#2-goats").toggle();
+                    swapDigits($("#2-p"));
+                });
+                $("#td5").click(function(){
+                    $("#1-goat").toggle();
+                    swapDigits($("#1-p"));
+                });
+            });
+            function swapDigits(el) {
+                if (el.text() == '1') {
+                        el.text("0");
+                    }
+                    else {
+                        el.text("1");
+                    }
+            }
+</script>
+    </head>
+    <body>
+        <h2>Flip the cards to make binary numbers</h2>
+    <table>
+        <tr id="row1">
+            <td id="td1"><img id="16-goats" src="images/brian-16.png"></td>
+            <td id="td2"><img id="8-goats" src="images/brian-8.png"></td>
+            <td id="td3"><img id="4-goats" src="images/brian-4.png"></td>
+            <td id="td4"><img id="2-goats" src="images/brian-2.png"></td>
+            <td id="td5"><img id="1-goat" src="images/brian-1.png"></td>
+        </tr>    
+        <tr id="row2">
+            <td id="td1"><p id="16-p">1</p></td>
+            <td id="td2"><p id="8-p">1</p></td>
+            <td id="td3"><p id="4-p">1</p></td>
+            <td id="td4"><p id="2-p">1</p></td>
+            <td id="td5"><p id="1-p">1</p></td>
+        </tr>
+    </table>
+    <br>
+    <p id="footer">8 Digital Technologies | Mt Maria College</p>
+    </body>
+</html>
