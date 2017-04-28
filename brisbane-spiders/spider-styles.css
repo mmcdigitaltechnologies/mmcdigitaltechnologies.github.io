@@ -1,0 +1,31 @@
+body {
+    background-color: ghostwhite;
+    font-family:Georgia, serif;
+    padding:20px;
+}
+
+.warning {
+    background-color: crimson;
+    color:white;
+    width:400px;
+    padding:10px;
+}
+
+.warning-symbol {
+    position:absolute;
+    top:130px;
+    left:300px;
+}
+
+.spider-info {
+    background-color: linen;
+    width:600px;
+    padding:10px;
+    margin-top: 20px;
+}
+
+.side-spider {
+    position: absolute;
+    top:20px;
+    left:700px;
+}
