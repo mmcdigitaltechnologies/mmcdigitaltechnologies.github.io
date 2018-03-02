@@ -1,0 +1,34 @@
+h1 {
+    color:darkslategray;
+}
+
+.door-safe {
+    background-image: url("images/door.png");
+    background-repeat: no-repeat;
+    height:250px;
+    width:200px;
+    float:left;
+}
+
+.door-scary {
+    background-image: url("images/door.png");
+    background-repeat: no-repeat;
+    height:250px;
+    width:200px;
+    float:left;
+}
+
+.door-scary:hover {
+    background-image: url("images/green-monster.jpg");
+}
+
+.door-safe:hover {
+    background-image: url("images/happy-bunny.jpg");
+}
+
+.block-me {
+    background-color: chartreuse;
+    display:inline-block;
+    height:200px;
+    width:200px;
+}
